@@ -19,7 +19,6 @@ struct hacker* initialize(hacker* mhacker, std::string name, uint32_t old, std::
 }
 
 void printHackerInfo(const hacker* mhacker) {
-    
     std::cout << "Hacker:\n";
     std::cout << "Name: " << mhacker->name << std::endl;
     std::cout << "Old: " << mhacker->old << std::endl;
