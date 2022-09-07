@@ -1,0 +1,2 @@
+/usr/bin/ar qc libC++.a CMakeFiles/C++.dir/C++.cpp.o
+/usr/bin/ranlib libC++.a

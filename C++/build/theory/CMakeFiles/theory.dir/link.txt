@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/theory.dir/Pointer/structPointer.cpp.o -o theory 

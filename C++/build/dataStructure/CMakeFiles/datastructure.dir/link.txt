@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/datastructure.dir/linkedList/tutorial.cpp.o -o datastructure 
