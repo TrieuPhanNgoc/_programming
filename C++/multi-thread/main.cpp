@@ -70,6 +70,9 @@ int main() {
     myThread.push(sum, 3, 5);
     myThread.push(func);
 
+
+    myThread(125);
+
     // join all of threads
     myThread.joinThread();
         
