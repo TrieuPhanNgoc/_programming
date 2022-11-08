@@ -8,7 +8,7 @@ namespace tpn
 
     class chating
     {
-    public:
+    public:`
         typedef void connectToServer();
 
         typedef boost::signals2::signal<connectToServer> connectToServerSignal;
