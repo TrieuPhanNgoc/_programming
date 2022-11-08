@@ -12,7 +12,8 @@ namespace tpn
         typedef void connectToServer();
 
         typedef boost::signals2::signal<connectToServer> connectToServerSignal;
-
+        
+        typedef connectToServerSignal::slot_type connectToServerSlot;
     public:
         /**
          * @brief Construct a new chating object
@@ -32,6 +33,8 @@ namespace tpn
          *
          */
         void executed();
+
+        void connectSignal(const connectToServerSlot& slot);
 
     private:
         /**
