@@ -13,7 +13,7 @@ namespace tpn_lib {
     _T minValue(_T _valA, _T _valB) {
         return _valA < _valB ? _valA : _valB;
     }
-
+    
     template<class _T>
     _T distance(_T _valA, _T _valB) {
         return abs(_valA - _valB);
