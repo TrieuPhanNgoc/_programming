@@ -39,7 +39,7 @@ void append(dll_t* dll, void* data);
  * @param dll 
  * @param node 
  */
-void rm(dll_t* dll, node_t* node);
+void delete(dll_t* dll, node_t* node);
 
 /**
  * @brief Method for reinitializing the dll
