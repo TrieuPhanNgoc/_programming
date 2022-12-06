@@ -5,5 +5,8 @@
 #include <boost/container/map.hpp>
 #include <boost/unordered_map.hpp>
 #include <boost/signals2/signal.hpp>
+#include <boost/asio/deadline_timer.hpp>
+#include <boost/bind/bind.hpp>
+#include <boost/program_options.hpp>
 
 #endif
