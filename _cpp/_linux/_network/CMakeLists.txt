@@ -1,2 +1,2 @@
-add_subdirectory(socket)
-add_subdirectory(tcp)
+add_subdirectory(_socket)
+add_subdirectory(_tcp)

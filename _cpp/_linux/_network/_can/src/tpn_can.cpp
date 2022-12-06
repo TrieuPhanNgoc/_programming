@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-#include "tpn_can.h"
-
-namespace tpn {
-    
-=======
 #include "tpn_can.h"
 
 namespace tpn {
@@ -27,5 +21,4 @@ namespace tpn {
     {
         
     }
->>>>>>> 8666e273e2e5f06c2c90943a0b677c2153baa9a8
 };

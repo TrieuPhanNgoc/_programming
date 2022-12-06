@@ -19,7 +19,7 @@ void func(int sockfd)
         n = 0;
         while ((buff[n++] = getchar()) != '\n')
             ;
-        write(sockfd, buff, sizeof(buff));
+        write(sockfd, buff, sizeof(buff)); // Writing to buffer before sending
         bzero(buff, sizeof(buff));
         read(sockfd, buff, sizeof(buff));
         printf("From Server : %s", buff);
