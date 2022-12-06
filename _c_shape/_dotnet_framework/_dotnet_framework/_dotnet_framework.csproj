@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api\tpn_string.cs" />
     <Compile Include="Api\trieupn_api.cs" />
     <Compile Include="Lib\Image.cs" />
     <Compile Include="Math\calculator.cs" />

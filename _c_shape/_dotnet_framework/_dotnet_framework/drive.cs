@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Security.Policy;
 
 namespace _dotnet_framework
 { 
@@ -64,7 +66,7 @@ namespace _dotnet_framework
             image.width = 5;
 
             image.isPortrait();
-
+    
 
             // Creating password
 
@@ -77,6 +79,10 @@ namespace _dotnet_framework
             var password = new string(buffer);
 
             Console.WriteLine("My password: " + password);
+
+            tpn_string m_string = new tpn_string();
+            m_string.set_string(password);
+            Console.WriteLine(m_string.get_string());
         }
     }
 }

@@ -4,6 +4,7 @@ using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace _dotnet_framework.Api
 {
@@ -92,5 +93,24 @@ namespace _dotnet_framework.Api
                 }
             }
         }
+
+
+
+        public static void copy_file(string des, string src)
+        {
+            File.Copy(src, des);
+        }
+
+        public static void delete_path(string path)
+        {
+            File.Delete(path);
+        }
+
+        public static string reading_all_message_from_path(string path)
+        {
+            return File.ReadAllText(path);
+        }
+
+
     }
 }

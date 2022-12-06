@@ -1,0 +1,8 @@
+G:\git\_programming_skills\_programming\_c_shape\_dotnet_framework\_dotnet_framework\bin\Debug\_dotnet_framework.exe.config
+G:\git\_programming_skills\_programming\_c_shape\_dotnet_framework\_dotnet_framework\bin\Debug\_dotnet_framework.exe
+G:\git\_programming_skills\_programming\_c_shape\_dotnet_framework\_dotnet_framework\bin\Debug\_dotnet_framework.pdb
+G:\git\_programming_skills\_programming\_c_shape\_dotnet_framework\_dotnet_framework\obj\Debug\_dotnet_framework.csproj.AssemblyReference.cache
+G:\git\_programming_skills\_programming\_c_shape\_dotnet_framework\_dotnet_framework\obj\Debug\_dotnet_framework.csproj.SuggestedBindingRedirects.cache
+G:\git\_programming_skills\_programming\_c_shape\_dotnet_framework\_dotnet_framework\obj\Debug\_dotnet_framework.csproj.CoreCompileInputs.cache
+G:\git\_programming_skills\_programming\_c_shape\_dotnet_framework\_dotnet_framework\obj\Debug\_dotnet_framework.exe
+G:\git\_programming_skills\_programming\_c_shape\_dotnet_framework\_dotnet_framework\obj\Debug\_dotnet_framework.pdb
