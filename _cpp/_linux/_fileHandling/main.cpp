@@ -30,6 +30,7 @@ void read_from_file(map<string, int>& mapping_table, const string& file_path)
         // While we can read the line
         // Reading next line
         getline(ifs, population,'\n');
+        // lexical_cast<int>(population);
         mapping_table[nation] = atoi(population.c_str());
     } 
 
